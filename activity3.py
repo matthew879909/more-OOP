@@ -6,4 +6,4 @@ class pair_elements:
                 return (lookup[target - num], i )
             lookup[num] = i
 value = int(input("Enetr sum for which you want to make this search : "))
-print("index1=%d, index2=%d" % pair_elements().twoSum(10,2030,40,50,60,70),value)
+print("index1=%d, index2=%d" % pair_elements().twoSum((10,20,50,30,40,50,60,70),value))
